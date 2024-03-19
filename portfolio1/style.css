@@ -1,4 +1,3 @@
-
 *{
     padding: 0;
     margin: 0;
@@ -59,6 +58,13 @@ nav ul li a:hover{
     font-weight: bold;
     padding: 10px 25px;
     border-radius: 30px;
+}
+.btn:hover{
+    background-color:rgb(227, 252, 88) ;
+    color: #000;
+    cursor: pointer;
+    padding: 15px 25px;  
+    transition: .4s;    
 }
 .content{
     position:absolute;
@@ -141,4 +147,40 @@ h4{
     font-size: 75px;
     text-transform: capitalize;
     margin-bottom: 20px;
+}
+.aboutme h5{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.ash{
+    color:#ed1212fd;
+    font-style: normal ;
+}
+.aboutme p{
+    color: white;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+button{
+    background-color:rgb(255, 4, 0) ;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+    margin-left: 400px;
+}
+button:hover{
+    background-color: transparent;
+    border: 2px solid rgb(255, 4, 0) ;
+    cursor: pointer;
+    padding: 20px 35px;
 }
