@@ -1,3 +1,4 @@
+
 *{
     padding: 0;
     margin: 0;
@@ -45,8 +46,8 @@ nav ul li a{
 nav ul li a:hover{
     color: white;
     background-color: rgb(0, 255, 0) ;
-    border: 2px solid transparent;
     padding: 10px 15px;
+    border: 2px solid transparent;
     border-radius: 30px;
     transition: .4s;
 }
@@ -129,7 +130,13 @@ h4{
 .About img{
     height: auto;
     width: 430px;
+    border-radius: 20px;
 }
+.About img:hover{
+    border: 5px solid rgb(255, 4, 0);
+    transition: .2s;
+}
+
 .aboutme{
     width: 550px;
 
@@ -180,7 +187,120 @@ button{
 }
 button:hover{
     background-color: transparent;
-    border: 2px solid rgb(255, 4, 0) ;
+    border: 2px solid rgb(255, 4, 0);
     cursor: pointer;
     padding: 20px 35px;
+}
+.service{
+    background-color: #101010;
+    width: 100%;
+    padding: 100px 0px;
+}
+.title h2{
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card{
+    height: 365px;
+    width: 355px;
+    padding: 20px 35px;
+    background-color: #191919;
+    border-radius: 20px;
+    margin : 15px;
+    position: relative;
+    overflow: hidden;
+}
+#gigi{
+    color: rgb(255, 4, 0) ;
+    font-style: normal;
+}
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    margin: 25px 0;
+    color: rgba(255, 0, 13, 0.534);
+    cursor: pointer;
+
+}
+.card i:hover{
+    color: rgb(255, 4, 0);
+
+}
+h5{
+    color:white;
+    font-size: 23px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    text-align: center;
+}
+.para p{
+    margin-bottom: 18px;
+}
+.card .button{
+    background-color:rgb(255, 4, 0) ;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+    
+
+}
+.card .button:hover{
+    background-color: transparent;
+    border: 2px solid rgb(255, 4, 0);
+    cursor: pointer;
+    padding: 10px 15px;
+
+}
+.contact_me{
+    width: 100%;
+    height: 290px;
+    background: #191919;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contact_me p{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.contact_me .button-two{
+    background-color:rgb(255, 4, 0) ;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+
+}
+.contact_me .button-two:hover{
+    background-color: transparent;
+    border: 2px solid rgb(255, 4, 0);
+    cursor: pointer;
+   padding: 20px 20px;
+
+
 }
