@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.hero{
+    background-color: rgb(211, 219, 244);
+    height: 100vh;
+    width: 100%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0.1%;
+    margin-right: 5%;
+    padding: 55px;
+}
+.logo{
+    font-size: 45px;
+    color: black;
+    font-family: "Monoton", sans-serif;
+    font-weight: bolder;
+}
+.logo span{
+    color: burlywood;
+    margin-left: 20px;
+}
+nav ul li{
+    display: inline;
+    list-style: none;
+    padding: 10px 30px;
+    font-size: 25px;
+    justify-content: space-around;
+}
+nav ul li a{
+    padding: 10px 25px;
+    text-decoration: none;
+    color: black;
+}
+nav ul li a:hover{
+    font-size: 30px;
+    color: white;
+    background-color: chartreuse;
+    padding: 15px 40px;
+    transition: .4s;
+    border-radius: 30px;
+}
+.background{
+    background-color: aquamarine;
+    height: 100vh;
+    width: 100%;
+}
+.head{
+    text-align: center;
+    padding: 40px;
+    font-size: 45px;
+    text-decoration: underline;
+
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    height: 395px;
+    width: 355px;
+    background-color: chartreuse;
+    margin: 15px;
+    border-radius: 20px;
+    padding: 15px 40px;
+}
+.card:hover{
+    background-color: red;
+    padding : 15px 40px;
+    transition: .4s;
+    cursor: pointer;
+}
+.card h4{
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 15px;
+    font-weight: bolder;
+    font-family: "Concert One", sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    
+}
+.card h6{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.para{
+    letter-spacing: 1px;
+    font-size: 20px;
+    padding: 5px;
+}
